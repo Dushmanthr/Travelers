@@ -5,7 +5,11 @@ import Image from "next/image"
 import Logo from '../../public/Images/logo.png'
 import { Bars3Icon } from '@heroicons/react/16/solid'
 
-const Navbar = () => {
+interface Props{
+  openNav: ()=>void;
+}
+
+const Navbar = ({openNav}:Props) => {
   return (
     <div className="w-[100%] bg-white">
       <div className='flex w-[80%] mx-auto items-center justify-between h-[12vh]'>
@@ -25,7 +29,7 @@ const Navbar = () => {
               <span className='relative'>Book Now</span>
 
             </a>
-            <Bars3Icon className='w-[2rem] lg:hidden h-[2rem] text-blue-800 font-bold '/>
+            <Bars3Icon onClick={openNav} className='w-[2rem] lg:hidden h-[2rem] text-blue-800 font-bold '/>
         </div>
       </div>
     </div>
