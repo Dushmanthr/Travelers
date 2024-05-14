@@ -8,7 +8,7 @@ interface Props{
 
 const MobileNav = ({nav, closeNav}: Props) => {
 
-  const navAnimation = nav?"translate-y-0":"translate-x-[-100%]"
+  const navAnimation = nav?"translate-x-0":"translate-x-[-100%]"
 
   return (
     <div className={`fixed ${navAnimation} transform transition-all duration-300 top-0 left-0 right-0 bottom-0 z-[1000] bg-[#200f31]`}>
