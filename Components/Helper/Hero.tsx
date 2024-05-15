@@ -1,4 +1,5 @@
 import React from 'react'
+import SearchBox from './SearchBox'
 
 
 
@@ -13,6 +14,7 @@ const Hero = () => {
             <h1 className='text-[25px] mb-[1rem] md:mb-[0] text-center md:text-[35px] lg:text-[45px] tracking-[0.2rem] text-white font-bold uppercase'>Let's Enjoy the journey</h1>
             <p className='md:text-[16px] text-center text-[18px] text-white font-normal [word-spacing:5px]'>Get the best prices on 2,000,000+ properties, worldwide</p>
           </div>
+          <SearchBox/>
         </div>
       </div>
     </div>
