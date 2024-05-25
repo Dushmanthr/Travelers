@@ -39,7 +39,7 @@ const DestinationSlider = () => {
         </div>
         <div>
             <Image src="/Images/d3.png" alt="destination" width={200} height={100} className="rounded-full mx-auto"/>
-            <h1 className='destination_h1'>Bangladesh</h1>
+            <h1 className='destination_h1'>Thailand</h1>
             <p className='destination_p'> 7 Hotels</p>
         </div>
         
