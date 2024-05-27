@@ -1,3 +1,4 @@
+import Footer from '@/Components/Footer'
 import Contact from '@/Components/Helper/Contact'
 import Hero from '@/Components/Helper/Hero'
 import Hotels from '@/Components/Helper/Hotels'
@@ -21,6 +22,7 @@ const HomePage = () => {
       <Hotels/>
       <Reviews/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
